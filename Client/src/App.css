@@ -1,0 +1,391 @@
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  /* padding: 20px; */
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.d-flex
+{
+  margin-right: 60px;
+}
+.navbar-collapse
+{
+  margin-left: 350px !important;
+  margin-top: 15px !important;
+}
+.company_name
+{
+  margin-left: 250px !important;
+}
+.view
+{
+  width:120px;
+}
+.card 
+{
+background-color: #f1f1f1;
+/* border-radius: 20px; */
+background: #f1f1f1;
+margin-bottom: 25px;
+box-shadow:  20px 20px 60px #cdcdcd,
+             -20px -20px 60px #ffffff;
+}
+.container
+{
+  margin-left: inherit;
+  width:100%;
+  max-width: 900px !important;
+}
+.pointer
+{
+  cursor: pointer;
+  color: dodgerblue;
+  text-decoration: underline;
+}
+.top
+{
+  margin-top: 15px;
+  font-weight: 600;
+}
+.small
+{
+  font-size: large !important;
+  list-style: none;
+  margin-left: -8%;
+}
+.employee
+{
+  max-width: 95% !important;
+  margin-left: 2.5% ;
+  margin-right: 2.5%;
+}
+.settings:hover
+{
+  background-color: white !important;
+}
+.container1 {
+  width: 800;
+  height: 300;
+  margin: 100px auto;
+}
+
+.btn1 {
+  margin-top: 20px;
+  cursor: pointer !important;
+  margin-left: 80px;
+  background-color: tomato;
+  color: azure;
+}
+.row1
+{
+  margin-left: 0% !important;
+  margin-right: 0% !important;
+  margin-top: 5% !important;
+}
+#App4 {
+  text-align: center;
+  }
+  .container1
+  {
+  background-color:whitesmoke;
+  }
+  #App2
+  {
+  margin-left:28%;
+  }
+  .App3
+  {
+  margin-left:30%;
+  }
+  #samplecalc
+  {
+  background-color: #FAECEA;
+  }
+
+  #samplecalc1
+  {
+  background-color: #F6F3F3;
+  margin-left: 30%;
+  }
+  #samplecalc2
+  {
+  background-color: #F6F3F3;
+  
+  }
+
+#toggbut 
+{
+  padding-left:100px;
+  
+}
+#para1
+{
+margin-left:375px;
+}
+#para11
+{
+margin-left:430px;
+}
+#para2
+{
+margin-left:-712px;
+}
+#parasize
+{
+font-size:15px;
+}
+#paraepf1
+{
+margin-left:-660px;
+}
+#epfmain
+{
+margin-left:-660px;
+}
+#epfmain1
+{
+margin-right:400px;
+}
+#table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+th
+{
+height:40px;
+}
+#enable
+{
+color: green;
+}
+.btn2 {
+  width: auto;
+  display: flex;
+  margin-left: 35%;
+}
+.form {
+  /* border: 1px solid #121212; */
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.errorMsg {
+  color: #cc0000;
+  margin-bottom: 12px;
+}
+
+.skip {
+  text-decoration:none;
+}
+.docs {
+  margin: 30%;
+  position: relative;
+  top: 20px;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  height: 100%;
+  max-height: 205px;
+  left: -12%;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+.errorMsg {
+  color: #cc0000;
+  margin-bottom: 12px;
+}
+
+.skip {
+  text-decoration: none;
+}
+.zp-signup-form-container {
+  -webkit-flex-basis: 50%;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+.zp-signup-form {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  padding: 25px 29px;
+  border-top: 2px solid #f55d49;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 4px 11px 0 #e4e4e4;
+  box-shadow: 0 4px 11px 0 #e4e4e4;
+  background: #fff;
+}
+.form-group {
+  position: relative;
+  margin: 10px 0;
+  align-content: center;
+  justify-content: center;
+}
+.text-danger {
+  color: "red";
+}
+.zp-form-submit {
+  color: #fff;
+  background: #f55d49;
+  padding: 12px 45px;
+  border: none;
+  border-radius: 500px;
+  outline: none;
+  font-size: 16px;
+  width: 40%;
+  align-content: center;
+  cursor: pointer;
+}
+.Spinner {
+  margin-left: 8000;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 5px solid #eee;
+  border-left-color: #00bcd4;
+  animation: spin 1.2s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.container10{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box10{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  animation: asheffects 2s ease infinite;
+}
+@keyframes asheffects{
+  0%{
+  width: 40px;
+  height: 40px;
+  }
+  90%{
+  width: 70px;
+  height: 70px;
+  }
+  100%{
+    transform:rotate(360deg);
+  }
+}
+.span{
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: dodgerblue
+}
+.span:nth-child(2){
+  right: 0px;
+}
+.span:nth-child(3){
+  right: 0px;
+  bottom: 0px;
+}
+.span:nth-child(4){
+  left: 0px;
+  bottom: 0px;
+}
+.loginoutercard
+{
+  max-width: 50%;
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: #f1f1f1;
+  
+ 
+}
+.logininnercard
+{
+  width: 70%  !important;
+  height: 60vh !important;
+  margin-left: 7%;
+  border-radius: 15px;
+  margin-top:20% !important;
+background: #f1f1f1;
+box-shadow:  -20px -20px 63px #acacac,
+             20px 20px 63px #ffffff;
+}
+input 
+{
+  max-width: 70%;
+}
+.logincard 
+{
+  
+  margin-left: 50px;
+}
+.searchinput
+{
+  width:80% !important;
+  margin-left: 100% !important;
+}
+
+.login
+{
+  margin-top: 20%;
+   
+}
+.emplogin
+{
+  margin-top: 25%;
+
+   
+}
